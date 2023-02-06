@@ -16,6 +16,10 @@
 		04E48B2229902DC20075127F /* Pruducst12Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B2129902DC20075127F /* Pruducst12Tests.swift */; };
 		04E48B2C29902DC20075127F /* Pruducst12UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B2B29902DC20075127F /* Pruducst12UITests.swift */; };
 		04E48B2E29902DC20075127F /* Pruducst12UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B2D29902DC20075127F /* Pruducst12UITestsLaunchTests.swift */; };
+		04E48B4129903AE00075127F /* NetworkLayre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B4029903AE00075127F /* NetworkLayre.swift */; };
+		04E48B4329903BA70075127F /* Kokteli.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B4229903BA70075127F /* Kokteli.swift */; };
+		04E48B48299062C30075127F /* MainViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B47299062C30075127F /* MainViewmodel.swift */; };
+		04E48B882991A3320075127F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E48B872991A3320075127F /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		04E48B2729902DC20075127F /* Pruducst12UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pruducst12UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E48B2B29902DC20075127F /* Pruducst12UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pruducst12UITests.swift; sourceTree = "<group>"; };
 		04E48B2D29902DC20075127F /* Pruducst12UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pruducst12UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04E48B4029903AE00075127F /* NetworkLayre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayre.swift; sourceTree = "<group>"; };
+		04E48B4229903BA70075127F /* Kokteli.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kokteli.swift; sourceTree = "<group>"; };
+		04E48B47299062C30075127F /* MainViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewmodel.swift; sourceTree = "<group>"; };
+		04E48B872991A3320075127F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		04E48B0929902DBF0075127F /* Pruducst12 */ = {
 			isa = PBXGroup;
 			children = (
+				04E48B3F29903AC80075127F /* NetworlLayre */,
+				04E48B3C29902FAD0075127F /* MVVM */,
 				04E48B0A29902DBF0075127F /* AppDelegate.swift */,
 				04E48B0C29902DBF0075127F /* SceneDelegate.swift */,
 				04E48B0E29902DBF0075127F /* ViewController.swift */,
@@ -106,6 +116,8 @@
 				04E48B1329902DC20075127F /* Assets.xcassets */,
 				04E48B1529902DC20075127F /* LaunchScreen.storyboard */,
 				04E48B1829902DC20075127F /* Info.plist */,
+				04E48B4229903BA70075127F /* Kokteli.swift */,
+				04E48B872991A3320075127F /* TableViewCell.swift */,
 			);
 			path = Pruducst12;
 			sourceTree = "<group>";
@@ -125,6 +137,38 @@
 				04E48B2D29902DC20075127F /* Pruducst12UITestsLaunchTests.swift */,
 			);
 			path = Pruducst12UITests;
+			sourceTree = "<group>";
+		};
+		04E48B3C29902FAD0075127F /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				04E48B3E29903A590075127F /* View Model */,
+				04E48B3D29903A4B0075127F /* Model */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		04E48B3D29903A4B0075127F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E48B3E29903A590075127F /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				04E48B47299062C30075127F /* MainViewmodel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		04E48B3F29903AC80075127F /* NetworlLayre */ = {
+			isa = PBXGroup;
+			children = (
+				04E48B4029903AE00075127F /* NetworkLayre.swift */,
+			);
+			path = NetworlLayre;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E48B4129903AE00075127F /* NetworkLayre.swift in Sources */,
 				04E48B0F29902DBF0075127F /* ViewController.swift in Sources */,
 				04E48B0B29902DBF0075127F /* AppDelegate.swift in Sources */,
+				04E48B4329903BA70075127F /* Kokteli.swift in Sources */,
 				04E48B0D29902DBF0075127F /* SceneDelegate.swift in Sources */,
+				04E48B882991A3320075127F /* TableViewCell.swift in Sources */,
+				04E48B48299062C30075127F /* MainViewmodel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +487,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TU4A85R5R3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Pruducst12/Info.plist;
+				INFOPLIST_FILE = "Pruducst12//Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -467,7 +515,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TU4A85R5R3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Pruducst12/Info.plist;
+				INFOPLIST_FILE = "Pruducst12//Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
